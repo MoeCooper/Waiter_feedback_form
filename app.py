@@ -13,7 +13,7 @@ if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:jeonju123@localhost/restaurant_feedback'
 else:
 
-    # productuon database
+    # production database
     app.debug = False
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://yxgxmedzznltne:2da5d036b511c53add231bf8c91adce5bde4387565c1435680d7c4439668c5c5@ec2-35-174-88-65.compute-1.amazonaws.com:5432/d73mc5h8pq4nn4'
 
@@ -68,7 +68,6 @@ def submit():
             data = Feedback(customer, customer_email, waiter, rating, comments)
             db.session.add(data)
             db.session.commit()
-            send_mail(customer, customer_email, waiter, rating, comments)
 
             return render_template('success.html')
         return render_template('index.html', message='You have already submitted feedback!')

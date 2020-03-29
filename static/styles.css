@@ -5,10 +5,11 @@
 }
 
 body {
-	background: #db4dff;
-	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("czZwyp.jpg");
+	background-repeat: no-repeat;
+	font-family: Helvetica, sans-serif;
 	color: #fff;
-	line-height: 1.6;
+	line-height: 1.5;
 }
 
 .container {
@@ -19,7 +20,7 @@ body {
 }
 
 h1 {
-	color: #777;
+	color: #555;
 	margin-top: 15px;
 }
 
@@ -33,7 +34,7 @@ img {
 
 .message {
 	text-align: center;
-	padding: 5px;
+	padding: 4px;
 	border: #ccc dotted 2px;
 	margin-top: 2rem;
 }
@@ -60,7 +61,7 @@ textarea {
 
 .btn {
 	display: block;
-	width: 100%;
+	width: 50%;
 	background: #333;
 	color: #fff;
 	padding: 10px 20px;
