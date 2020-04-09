@@ -6,7 +6,7 @@
 
 body {
 	background-image: url("czZwyp.jpg");
-	background-repeat: no-repeat;
+	background-repeat: fill;
 	font-family: Helvetica, sans-serif;
 	color: #fff;
 	line-height: 1.5;
@@ -39,7 +39,7 @@ img {
 	margin-top: 2rem;
 }
 
-.logo {
+#logo {
 	width: 275px;
 	display: block;
 	margin: auto;

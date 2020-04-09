@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8">
       <link rel="stylesheet" href="../static/styles.css">
+      <script src="../static/animations.js"></script>
     <title>Please rate your service</title>
   </head>
   <body>
     <div class="container">
-        <img src="../static/logo.jpg" alt="insert picture here" class="logo">
+        <img src="../static/logo.jpg" alt="insert picture here" id="logo">
         {% if message %}
         <p class="message">{{ message }}</p>
         {% endif %}

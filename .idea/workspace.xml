@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac1c22dd-b06a-435d-bcdf-e84ef3bea29a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/czZwyp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jc702.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jc702.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +52,23 @@
       <option name="presentableId" value="Default" />
       <updated>1585106522361</updated>
     </task>
+    <task id="LOCAL-00001" summary="Edited some css. Need more styling. Deployed to Heroku.">
+      <created>1585482548218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585482548219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Edited some css. Need more styling. Deployed to Heroku." />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited some css. Need more styling. Deployed to Heroku." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Notifications" timestamp="1585382714559">
@@ -72,15 +83,24 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="143" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1585475868831" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1585384987150">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="675" y="0" key="CommitChangelistDialog2" timestamp="1585482545604">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="675" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1585482545604" />
+    <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1585510418601">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585384987150" />
+    <state x="463" y="111" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1585510418601" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1585479770975">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585381216331" />
     <state x="184" y="6" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585479770975" />
+    <state x="201" y="120" key="Vcs.Push.Dialog.v2" timestamp="1585482575427">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="201" y="120" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1585482575427" />
     <state width="691" height="392" key="XDebugger.FullValuePopup" timestamp="1585389357953">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
